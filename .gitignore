@@ -1,0 +1,19 @@
+# 临时产物与中间文件（不属技能本体）
+_backup/
+_edgeprofile/
+_probe/
+_download/
+
+# 运行期抓取/日志中间文件
+_*.txt
+_*.log
+_*.json
+_clip_*
+
+# 下载产物目录
+bili_download/
+douyin_download/
+*_主图/
+
+# 门禁历史（观测数据，不进版本库；用 --save 追加）
+scripts/.skill-audit-history.jsonl
